@@ -21,6 +21,7 @@
         echo '<br>';
         $eredmeny = $adatbazis->adatLeker2("ertek", "szoveg", "forma");
         $adatbazis->megvalositAsszoc($eredmeny, "ertek", "szoveg");
+        $adatbazis->kartyaFeltolt($tabla);
         $adatbazis->kapcsolatBezar();
     ?>
 </body>

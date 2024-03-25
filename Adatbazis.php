@@ -72,3 +72,4 @@ class Adatbazis
         $this->kapcsolat->close();
     }
 }
+?>

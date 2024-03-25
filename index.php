@@ -18,7 +18,7 @@
         $eredmeny = $adatbazis->adatLeker("kep", "szin");
         //mátrix bejárása, egydimezniós mátrix
         $adatbazis->megvalosit($eredmeny);
-        
+        echo '<br>';
         $eredmeny = $adatbazis->adatLeker2("ertek", "szoveg", "forma");
         $adatbazis->megvalositAsszoc($eredmeny, "ertek", "szoveg");
         $adatbazis->kapcsolatBezar();
